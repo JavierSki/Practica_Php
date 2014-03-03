@@ -1,6 +1,8 @@
 <?php
-$a= " hola";
-$b= "uniminuto";
-echo strlen ($a);
-echo strlen ($b);
+
+	$a=" hola";
+	$b="uniminuto";
+	echo strlen($a);
+	echo strlen($b);
+
 ?>

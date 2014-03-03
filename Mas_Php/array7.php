@@ -1,14 +1,14 @@
 <?php
-$n= rand (1,100);
-	for($i=0; $i<$n; $i++){
-		$vector [$i]= rand (1,100);
+	$N= rand(1, 100);
+	for($I=0;$I<$N;$I++){
+		$vector[$I]= rand(1, 100);
 	}
-for ($i=0; $i<$n; $i++){
-	for ($j=$i; $j<$n; $j++){
-		if ($vector [$i] > $vector [$j]){
-			$mayor= $vector [$i];
+	for($P=0;$P<$N;$P++){
+		for($J=$P;$J<$N;$J++){
+			if($vector[$P] > $vector[$J]){
+				$mayor=$vector[$I];
 			}
 		}
 	}
-print "el numero mayor es: ".$mayor;
+	print_r('El numero mayor es: '.$mayor);
 ?>
